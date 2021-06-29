@@ -178,5 +178,4 @@ while not play_again:
                 play_again = True
                 break
         cv.imshow('Stone Paper Scissor', img)
-        cv.imwrite('temp.jpg', img)
         cv.waitKey(1)
